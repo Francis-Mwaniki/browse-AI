@@ -8,3 +8,12 @@
   ```sh
   npm i or yarn
   ```
+
+ ### in your .env file
+   add 
+   ```sh
+   PORT=5000
+   ```
+   ```sh
+   SECRET_API_KEY='<your browser api key>'
+   ```
