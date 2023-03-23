@@ -37,7 +37,7 @@ app.get('/tasks', (req, res) => {
       request(options, function (error, response, body) {
         if (error) throw new Error(error);
       
-        return res.send(body);
+        return res.send(body.toString());
       });
 })
 
